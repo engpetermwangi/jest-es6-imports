@@ -1,0 +1,16 @@
+{
+  "name": "jest-es6-imports",
+  "version": "1.0.0",
+  "description": "How to run Jest tests that use ES6 import syntax",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
